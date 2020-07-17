@@ -142,3 +142,8 @@ footer {
 .card {
   border-radius: 0% !important;
 }
+
+.text-muted {
+  font-family: monospace;
+  font-size: small;
+}

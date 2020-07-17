@@ -3,10 +3,10 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 
 const About = () => {
   return (
-    <Container className='spacer'>
+    <Container className='spacer' id='about'>
       <Row>
         <Col style={{ marginRight: '2rem' }}>
-          <section id='about'>
+          <section>
             <h1 className='section-title'>About Me</h1>
             <p>
               Hello! My name is Ade, I'm an English literature graduate who's
@@ -31,12 +31,11 @@ const About = () => {
             <p>Here are a few technolgies that I'm experienced with:</p>
             <ul className='tech-lists'>
               <li className='tech-list'>JavaScript</li>
-              <li className='tech-list'>Vue.js</li>
-              <li className='tech-list'>Vuex</li>
-              <li className='tech-list'>Nuxt.js</li>
-              <li className='tech-list'>HTML & CSS</li>
               <li className='tech-list'>React.js</li>
               <li className='tech-list'>Redux</li>
+              <li className='tech-list'>HTML & CSS</li>
+              <li className='tech-list'>Vue.js</li>
+              <li className='tech-list'>Nuxt.js</li>
             </ul>
           </section>
         </Col>
