@@ -12,20 +12,29 @@ const Project = () => {
       <Row className='justify-content-end'>
         <Col>
           <section id='project'>
-            <h1 className='text-right mb-5'>Some Things I've Built</h1>
+            <h1 className='text-right mb-5 section-title'>
+              Some Things I've Built
+              <div className='rectangle-2'></div>
+            </h1>
             <Row>
               <Col>
                 <CardGroup>
                   <Card className='px-4 pt-3'>
                     <a href='https://septynade.github.io/tindog' target='blank'>
-                      <Card.Img variant='top' src={tindog} />
+                      <Card.Img
+                        variant='top'
+                        src={tindog}
+                        className='pro-img'
+                      />
                     </a>
                     <Card.Body>
                       <Card.Title>Tindog</Card.Title>
                       <Card.Text>
-                        A landing page of an imaginary Tinder clone app for
-                        dogs, built with Bootstrap, relies heavily on Bootsrap's
-                        grid system, and hosted on Github pages.
+                        A landing page of an imaginary Tinder clone app for dogs
+                        because dogs need some romace in their life too! My
+                        introduction to CSS framework, Bootstrap specifically.
+                        It relies heavily on Bootstrap's classes, and hosted on
+                        Github.
                       </Card.Text>
                       <Card.Text>
                         <small className='text-muted'>
@@ -53,7 +62,11 @@ const Project = () => {
                       href='https://septynade.github.io/robofriends'
                       target='blank'
                     >
-                      <Card.Img variant='top' src={robofriends} />
+                      <Card.Img
+                        variant='top'
+                        src={robofriends}
+                        className='pro-img'
+                      />
                     </a>
                     <Card.Body>
                       <Card.Title>Robofriends</Card.Title>
@@ -92,7 +105,11 @@ const Project = () => {
                 <CardGroup>
                   <Card className='px-4 pt-3'>
                     <a href='https://tokophone.netlify.app' target='blank'>
-                      <Card.Img variant='top' src={tokophone} />
+                      <Card.Img
+                        variant='top'
+                        src={tokophone}
+                        className='pro-img'
+                      />
                     </a>
                     <Card.Body>
                       <Card.Title>Tokophone</Card.Title>
@@ -122,7 +139,7 @@ const Project = () => {
                   </Card>
                   <Card className='px-4 pt-3'>
                     <a href='/' target='blank'>
-                      <Card.Img variant='top' src={proj} />
+                      <Card.Img variant='top' src={proj} className='pro-img' />
                     </a>
                     <Card.Body>
                       <Card.Title>Slack Clone</Card.Title>

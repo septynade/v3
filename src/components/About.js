@@ -7,14 +7,17 @@ const About = () => {
       <Row>
         <Col style={{ marginRight: '2rem' }}>
           <section>
-            <h1 className='section-title'>About Me</h1>
-            <p>
-              Hello! My name is Ade, I'm an English literature graduate who's
-              always been interested in technology, language, culture and
+            <h1 className='section-title'>
+              About Me
+              <div className='rectangle-1'></div>
+            </h1>
+            <p className='mt-5'>
+              Hello! My name is Ade Septian, I'm an English literature graduate
+              who's always been fond of technology, language, culture and
               everything in their orbit.
             </p>
             <p>
-              I wrote my first line of code on{' '}
+              I first dabbled with code on{' '}
               <a
                 href='https://freecodecamp.org'
                 target='blank'
@@ -22,11 +25,11 @@ const About = () => {
               >
                 FreeCodeCamp
               </a>{' '}
-              on 2016, and about 8 months ago I decided to start learning web
-              development seriously, and have been continuously learning via
-              courses and other sources. My goal is to be able to build anything
-              I want to and asked to, adding more tools and techs to my skill
-              set so I can proclaim as a good developer.
+              in 2016, and in the middle of 2019 after reading and listening to
+              just a "few" success stories, I was convinced that I could become
+              a professional developer. Since then, I have been continuously
+              learning via courses and any other sources I could access, with a
+              goal in mind; to be able to build anything I want and asked to.
             </p>
             <p>Here are a few technolgies that I'm experienced with:</p>
             <ul className='tech-lists'>

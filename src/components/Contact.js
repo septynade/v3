@@ -9,11 +9,12 @@ const Contact = () => {
           <Col>
             <h1 className='text-center'>What's Next?</h1>
             <p className='text-center'>
-              I'm currently looking for an opportunity to join a front-end
-              development team. Do not hesitate to shoot me an email, I'll try
-              my best to get back to you as soon as posible!
+              I'm currently looking for an opportunity to join a team that will
+              let me continue learning. Do not hesitate to shoot me an email,
+              <br />
+              I'll try my best to get back to you as soon as posible!
             </p>
-            <a href='mailto:septynade@gmail.com'>
+            <a href='mailto:septynade@gmail.com' target='blank'>
               <button className='btn-dark d-block mx-auto'>
                 Let's Connect!
               </button>

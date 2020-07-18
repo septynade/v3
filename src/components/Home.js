@@ -9,7 +9,8 @@ const Home = () => {
         I'm an <strong>English literature</strong> graduate turned Front-End
         Developer.
         <br /> I was a Digital Marketer for a brief moment in my life,
-        <br /> but then I found myself wanting something more technical.
+        <br /> but then I found myself wanting something more nerdy and
+        technical.
         <br />
         And I found web development to be quite fun and games, that is until I
         met <strong>JavaScript.</strong>
