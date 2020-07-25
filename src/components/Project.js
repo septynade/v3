@@ -147,7 +147,7 @@ const Project = () => {
                         An on-going project from a Udemy course I'm currently
                         doing, and that probably shouldn't be listed here. But
                         because I can't wait to start applying for jobs, so I
-                        listed it here, the title linked to the Github repo.
+                        listed it here.
                       </Card.Text>
                       <Card.Text>
                         <small className='text-muted'>
@@ -161,7 +161,10 @@ const Project = () => {
                       >
                         <i className='fab fa-github pro-link'></i>
                       </a>
-                      <a href='/' target='blank'>
+                      <a
+                        href='https://react-devchat.netlify.app/'
+                        target='blank'
+                      >
                         <i className='fas fa-external-link-alt pro-link'></i>
                       </a>
                     </Card.Body>
