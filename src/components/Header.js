@@ -65,28 +65,32 @@ class Menu extends Component {
               <Nav.Link
                 className='mr-4'
                 href='https://github.com/septynade'
-                target='blank'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <i className='fab fa-github'></i>
               </Nav.Link>
               <Nav.Link
                 className='mr-4'
                 href='https://linkedin.com/in/septynade'
-                target='blank'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <i className='fab fa-linkedin-in'></i>
               </Nav.Link>
               <Nav.Link
                 className='mr-4'
                 href='https://instagram.com/septynade'
-                target='blank'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <i className='fab fa-instagram'></i>
               </Nav.Link>
               <Nav.Link
                 className='mr-0 pr-0'
                 href='https://twitter.com/septynade'
-                target='blank'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <i className='fab fa-twitter'></i>
               </Nav.Link>
