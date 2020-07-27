@@ -84,7 +84,7 @@ class Menu extends Component {
                 <i className='fab fa-instagram'></i>
               </Nav.Link>
               <Nav.Link
-                className=''
+                className='mr-0 pr-0'
                 href='https://twitter.com/septynade'
                 target='blank'
               >

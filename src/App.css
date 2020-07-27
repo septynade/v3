@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Patrick+Hand+SC&family=Quicksand:wght@400;700&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=PT+Mono&family=Patrick+Hand+SC&family=Quicksand:wght@400;700&family=Space+Mono&display=swap');
 
 .spacer {
   margin-top: 15rem;
@@ -7,6 +7,11 @@
 
 a:hover {
   text-decoration: none !important;
+}
+
+Nav {
+  font-family: monospace;
+  font-size: 1.3rem;
 }
 
 .navbar {
@@ -22,27 +27,31 @@ a:hover {
 }
 
 .navbar-brand {
-  color: #868686 !important;
+  color: #000000 !important;
   text-decoration: none;
+  font-family: 'Patrick Hand SC', cursive;
 }
 
 .navbar-brand:hover {
+  color: #6c757d !important;
+}
+
+.nav-link {
   color: #000 !important;
 }
 
 .nav-link:hover {
-  color: #000 !important;
+  color: #6c757d !important;
 }
 
 .greeting {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 2.5em;
 }
 
-h2 {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
-  font-size: 1.3rem;
+strong {
+  color: #000;
 }
 
 .link {
@@ -83,15 +92,19 @@ h2 {
   background-color: #ffffff;
 }
 
-Nav {
-  font-family: monospace;
-  font-size: 1.5rem;
-}
-
 .section-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif !important;
   margin-bottom: 20px;
   color: white;
+}
+.section-title-black {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif !important;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
 }
 
 .rectangle-1 {
@@ -140,10 +153,12 @@ footer {
 
 .tech-lists {
   font-family: monospace;
-  color: #b4b4b4;
+  font-size: 1.1em;
+  color: #6c757d;
   list-style: none;
   columns: 2;
   width: 90%;
+  padding: 0;
 }
 .tech-list::before {
   content: '⋗';
@@ -176,6 +191,16 @@ footer {
 
 .card {
   border-radius: 0% !important;
+}
+
+.card-text {
+  color: #6c757d;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.text-body {
+  color: #6c757d !important;
+  font-family: 'Roboto', sans-serif;
 }
 
 .text-muted {
