@@ -5,12 +5,11 @@ const Home = () => {
   return (
     <Container className='spacer'>
       <h1 className='greeting'>Hi, I'm Ade Septian.</h1>
-      <p style={{ fontSize: '1.2rem' }} className='text-body'>
+      <p className='text-body'>
         I'm an <strong>English literature</strong> graduate turned Web
-        Developer.
-        <br /> I was into Digital Marketing for a brief moment in my life,
-        <br /> but then I realize it wasn't the kind of job I want to do for the
-        rest of my life,
+        Developer. I was into Digital Marketing for a brief moment in my life,
+        but then I realize it wasn't the kind of job I want to do for the rest
+        of my life,
         <br />
         I wanted something more nerdy and technical.
         <br />

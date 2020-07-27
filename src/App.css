@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=PT+Mono&family=Patrick+Hand+SC&family=Quicksand:wght@400;700&family=Space+Mono&display=swap');
 
+html {
+  overflow-x: hidden !important;
+}
+
+.container {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
 .spacer {
   margin-top: 15rem;
   margin-bottom: 35rem;
@@ -16,7 +25,7 @@ Nav {
 
 .navbar {
   width: 100%;
-  padding: 10px;
+  padding: 10px 35px;
   position: fixed;
   top: 0;
   transition: top 0.6s;
