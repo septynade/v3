@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <Container>
+    <Container fluid>
       <footer style={{ color: '#9E9E9E' }}>
         <div className='mb-5'>
           <a
@@ -31,7 +31,7 @@ const Footer = () => {
             <i className='fab fa-twitter pro-link'></i>
           </a>
         </div>
-        Design & Built by Ade Septian
+        Built by Ade Septian
         <br />© {new Date().getFullYear()}
       </footer>
     </Container>

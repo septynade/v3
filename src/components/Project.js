@@ -13,7 +13,7 @@ const Project = () => {
       <Row className='justify-content-end'>
         <Col>
           <section id='project'>
-            <h1 className='text-right mb-5 section-title-black'>
+            <h1 className='text-center mb-5 section-title-black'>
               Some Things I've Built
             </h1>
             <Row>

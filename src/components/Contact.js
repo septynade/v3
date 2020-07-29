@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const Contact = () => {
   return (
-    <Container>
+    <Container fluid className='border-top border-bottom border-grey'>
       <section id='contact'>
-        <Row md={5} lg={2} className='justify-content-center'>
+        <Row md={5} lg={2} className='justify-content-center py-5'>
           <Col>
             <h1 className='text-center section-title-black'>What's Next?</h1>
             <p className='text-center text-body'>
@@ -15,9 +15,7 @@ const Contact = () => {
               you as soon as posible!
             </p>
             <a href='mailto:septynade@gmail.com' target='blank'>
-              <button className='btn-dark d-block mx-auto'>
-                Let's Connect!
-              </button>
+              <button className='btn-white d-block mx-auto'>Email Me →</button>
             </a>
           </Col>
         </Row>

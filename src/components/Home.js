@@ -24,7 +24,7 @@ const Home = () => {
         <button className='btn-white'>Resume</button>
       </a>
       <a href='mailto:septynade@gmail.com'>
-        <button className='btn-dark'>Get In Touch</button>
+        <button className='btn-white'>Get In Touch</button>
       </a>
     </Container>
   )
