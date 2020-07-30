@@ -19,11 +19,17 @@ const Home = () => {
       </p>
       <a
         href='https://drive.google.com/file/d/1-F7fTQRqqa9NlVaJAE6upAG_rKysf9t7/view'
-        target='blank'
+        target='_blank'
+        rel='noopener noreferrer'
       >
         <button className='btn-white'>Resume</button>
       </a>
-      <a href='mailto:septynade@gmail.com'>
+      <a
+        href='mailto:septynade@gmail.com'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='link'
+      >
         <button className='btn-white'>Get In Touch</button>
       </a>
     </Container>
