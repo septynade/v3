@@ -6,10 +6,9 @@ const About = () => {
     <Container className='spacer' id='about'>
       <Row>
         <Col style={{ marginRight: '2rem' }}>
-          <h1 className='section-title'>
-            About Me
-            <div className='rectangle-1'></div>
-          </h1>
+          <h1 className='section-title'>About Me</h1>
+          <hr className='mb-5' />
+
           <p className='mt-5 text-body'>
             Hello! My name is Ade Septian, I'm an English literature graduate
             who's always been fond of technology, language, culture and

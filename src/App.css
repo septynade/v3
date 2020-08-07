@@ -118,13 +118,6 @@ strong {
   font-weight: 900;
   font-family: 'Roboto', sans-serif !important;
   margin-bottom: 20px;
-  color: white;
-}
-.section-title-black {
-  font-size: 3rem;
-  font-weight: 900;
-  font-family: 'Roboto', sans-serif !important;
-  margin-bottom: 20px;
   color: rgb(0, 0, 0);
 }
 
@@ -201,6 +194,7 @@ footer {
   position: relative;
   display: inline-block;
   z-index: 1;
+  margin-top: 90px;
 }
 .pic::after {
   content: '';
@@ -211,7 +205,7 @@ footer {
   width: 50%;
   height: 65%;
   left: 110px;
-  top: 30px;
+  top: 50px;
   z-index: -1;
   box-sizing: border-box;
   transition: transform 0.2s;

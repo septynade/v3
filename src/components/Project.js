@@ -12,8 +12,8 @@ const Project = () => {
     <Container className='mb-5' id='project'>
       <Row className='justify-content-end'>
         <Col>
-          <h1 className='text-center mb-2 section-title-black'>
-            Some Things I've Built
+          <h1 className='text-center mb-2 section-title'>
+            Some Projects I've Built
           </h1>
           <hr className='mb-5' />
           <Row>

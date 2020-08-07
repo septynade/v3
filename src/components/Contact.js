@@ -10,7 +10,7 @@ const Contact = () => {
     >
       <Row md={5} lg={2} className='justify-content-center py-5'>
         <Col>
-          <h1 className='text-center section-title-black'>What's Next?</h1>
+          <h1 className='text-center section-title'>What's Next?</h1>
           <p className='text-center text-body'>
             I'm currently looking for an opportunity where I can put my
             abilities to work and to keep growing and learning new things. Do
