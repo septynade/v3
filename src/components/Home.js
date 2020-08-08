@@ -5,12 +5,13 @@ const Home = () => {
   return (
     <Container className='spacer'>
       <h1 className='greeting'>Hi, I'm Ade Septian.</h1>
-      <p className='text-body'>
+      <p className='text-body mt-4'>
         I'm an <strong>English literature</strong> graduate turned Web
         Developer.
-        <br />I was into Digital Marketing for a brief moment in my life, but
-        then I realize it wasn't the kind of job I want to do for the rest of my
-        life,
+        <br />I was into Digital Marketing for a brief moment in my life,
+        <br />
+        but then I realized it wasn't the kind of job I want to do for the rest
+        of my life,
         <br />
         I wanted something more nerdy and technical.
         <br />
@@ -22,7 +23,7 @@ const Home = () => {
         target='_blank'
         rel='noopener noreferrer'
       >
-        <button className='btn-white'>Resume</button>
+        <button className='btn-dark'>Resume</button>
       </a>
       <a
         href='mailto:septynade@gmail.com'
@@ -30,7 +31,7 @@ const Home = () => {
         rel='noopener noreferrer'
         className='link'
       >
-        <button className='btn-white'>Get In Touch</button>
+        <button className='btn-dark'>Get In Touch</button>
       </a>
     </Container>
   )

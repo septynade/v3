@@ -6,8 +6,8 @@ const Footer = () => {
     <Container fluid>
       <hr className='footer' />
       <Row>
-        <Col className='my-5 pl-5'>© Ade Septian.</Col>
-        <Col className='text-right my-5 pr-5'>
+        <Col className='my-5 pl-5 pr-0'>© Ade Septian.</Col>
+        <Col className='text-right my-5 pr-5 pl-0'>
           <a
             className='mr-4'
             href='https://github.com/septynade'

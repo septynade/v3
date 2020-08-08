@@ -97,14 +97,13 @@ strong {
 .btn-dark {
   color: #ffffff !important;
   text-decoration: none;
-  font-style: italic;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1rem;
   background-color: rgb(0, 0, 0);
   padding: 0.4rem 1.3rem;
   margin-top: 1rem;
   margin-right: 1rem;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .btn-dark:hover {
   color: #000 !important;
@@ -131,7 +130,7 @@ strong {
 
 .icons {
   color: #000000;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 .icons:hover {
@@ -141,7 +140,7 @@ strong {
 
 .pro-link {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 1.3rem;
+  font-size: 1.2em;
 }
 
 .pro-link:hover {
@@ -186,7 +185,7 @@ strong {
   width: 50%;
   height: 65%;
   left: 110px;
-  top: 50px;
+  top: 40px;
   z-index: -1;
   box-sizing: border-box;
   transition: transform 0.2s;
@@ -230,4 +229,10 @@ hr {
 
 hr.footer {
   margin: 0 2.5em;
+}
+
+@media screen and (max-width: 600px) {
+  br {
+    display: none;
+  }
 }
