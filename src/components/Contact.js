@@ -3,11 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const Contact = () => {
   return (
-    <Container
-      fluid
-      className='border-top border-bottom border-grey mb-0'
-      id='contact'
-    >
+    <Container fluid className='my-5 py-5' id='contact'>
       <Row md={5} lg={2} className='justify-content-center py-5'>
         <Col>
           <h1 className='text-center section-title'>What's Next?</h1>

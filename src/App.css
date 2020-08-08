@@ -58,8 +58,6 @@ Nav {
 
 .nav-link:hover {
   color: #505050 !important;
-  border-bottom: 2px solid;
-  padding-bottom: 0;
 }
 
 .greeting {
@@ -89,7 +87,7 @@ strong {
   padding: 0.4rem 1.3rem;
   margin-top: 1rem;
   margin-right: 1rem;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .btn-white:hover {
   color: #ffffff;
@@ -130,26 +128,9 @@ strong {
   background-color: #000;
   z-index: -2;
 }
-.rectangle-2 {
-  position: absolute;
-  left: -100%;
-  top: -2%;
-  height: 7%;
-  width: 199%;
-  background-color: #000;
-  z-index: -1;
-}
-
-footer {
-  margin: 2rem;
-  margin-top: 20rem;
-  font-family: monospace;
-  text-align: center;
-  font-weight: bold;
-}
 
 .icons {
-  color: #ffffff;
+  color: #000000;
   font-size: 1.2rem;
 }
 
@@ -200,7 +181,7 @@ footer {
   content: '';
   align-content: flex-end;
   position: absolute;
-  border: 5px solid #000000;
+  border: 3px solid #000000;
   border-radius: 0;
   width: 50%;
   height: 65%;
@@ -219,16 +200,34 @@ footer {
 }
 
 .card-text {
-  color: #6c757d;
+  color: #1f1f1f;
   font-family: 'Roboto', sans-serif !important;
 }
 
 .text-body {
-  color: #6c757d !important;
+  color: #1f1f1f !important;
   font-family: 'Roboto', sans-serif;
 }
 
 .text-muted {
   font-family: monospace;
   font-size: small;
+}
+
+.footer {
+  margin: 2rem;
+  margin-top: 20rem;
+  font-family: monospace;
+  text-align: center;
+  font-weight: bold;
+}
+
+hr {
+  height: 1px;
+  color: #000;
+  background-color: #000;
+}
+
+hr.footer {
+  margin: 0 2.5em;
 }

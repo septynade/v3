@@ -1,11 +1,13 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <Container fluid style={{ backgroundColor: '#000' }}>
-      <footer style={{ color: '#505050' }} className='mb-0 mt-5 py-3'>
-        <div className='my-5'>
+    <Container fluid>
+      <hr className='footer' />
+      <Row>
+        <Col className='my-5 pl-5'>© Ade Septian.</Col>
+        <Col className='text-right my-5 pr-5'>
           <a
             className='mr-4'
             href='https://github.com/septynade'
@@ -30,9 +32,8 @@ const Footer = () => {
           <a className='' href='https://twitter.com/septynade' target='blank'>
             <i className='fab fa-twitter icons'></i>
           </a>
-        </div>
-        © {new Date().getFullYear()} Ade Septian.
-      </footer>
+        </Col>
+      </Row>
     </Container>
   )
 }

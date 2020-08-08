@@ -44,7 +44,7 @@ class Menu extends Component {
           })
         }
       >
-        <Container>
+        <Container fluid>
           <Navbar.Brand href='/' style={{ fontSize: '2rem' }} className='mr-5'>
             &lt;Ade /&gt;
           </Navbar.Brand>
