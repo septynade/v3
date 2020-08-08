@@ -4,7 +4,8 @@ import { Container } from 'react-bootstrap'
 const Home = () => {
   return (
     <Container className='spacer'>
-      <h1 className='greeting'>Hi, I'm Ade Septian.</h1>
+      <p className='text-body'>Hi, I'm</p>
+      <h1 style={{ width: '10%' }}>Ade Septian</h1>
       <p className='text-body mt-4'>
         I'm an <strong>English literature</strong> graduate turned Web
         Developer.
