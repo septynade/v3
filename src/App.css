@@ -2,6 +2,7 @@
 
 html {
   border: 8px solid black;
+  overflow-x: hidden;
 }
 
 .container {
@@ -10,8 +11,8 @@ html {
 }
 
 .spacer {
-  margin-top: 15rem;
-  margin-bottom: 20rem;
+  margin-top: 20rem;
+  margin-bottom: 10rem;
 }
 
 a:hover {
@@ -112,6 +113,25 @@ strong {
 .btn-dark:hover {
   color: #000 !important;
   background-color: #ffffff;
+}
+
+.home {
+  top: 0;
+  padding: 0 0;
+  z-index: 1;
+}
+
+.home::before {
+  content: '';
+  position: absolute;
+  height: 95%;
+  width: 99.2%;
+  background-image: url('./assets/bg.jpg');
+  background-position: 100% 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -200;
+  opacity: 0.6;
 }
 
 .section-title {
@@ -238,5 +258,16 @@ hr.footer {
 @media screen and (max-width: 600px) {
   br {
     display: none;
+  }
+
+  .home::before {
+    height: 85%;
+    width: 96.5%;
+    background-position: 80% 5%;
+  }
+
+  .spacer {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
   }
 }

@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 
 const About = () => {
   return (
-    <Container className='spacer' id='about'>
+    <Container className='spacer pt-5' id='about'>
       <Row>
         <Col style={{ marginRight: '2rem' }}>
           <h1 className='section-title'>About Me</h1>

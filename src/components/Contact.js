@@ -9,9 +9,8 @@ const Contact = () => {
           <h1 className='text-center section-title'>What's Next?</h1>
           <p className='text-center text-body'>
             I'm currently looking to join a team where I can put my abilities to
-            work and keep growing and learn new things. Do not hesitate to shoot
-            me an email, I'll try my best to get back to you as soon as
-            possible!
+            work, keep growing and learn new things. Do not hesitate to shoot me
+            an email, I'll try my best to get back to you as soon as possible!
           </p>
           <a href='mailto:septynade@gmail.com' target='blank'>
             <button className='btn-white d-block mx-auto'>Email Me →</button>
