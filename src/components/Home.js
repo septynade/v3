@@ -14,13 +14,10 @@ const Home = () => {
           I'm an <strong>English literature</strong> graduate turned Web
           Developer.
           <br /> I was a Digital Marketer for a brief moment in my life,
-          <br />
-          but then I realized it wasn't the kind of job I want to do for the
-          rest of my life,
-          <br />I wanted something more nerdy and technical, and I found web
-          development to be quite fun,
-          <br />
-          that is until I met <strong>JavaScript.</strong>
+          <br /> but then I realized it wasn't the kind of job I want to do for
+          the rest of my life,
+          <br /> I wanted something more nerdy and technical, and I found web
+          development, and <strong>JavaScript</strong> to be quite fun!
         </p>
         <a
           href='https://drive.google.com/file/d/1-F7fTQRqqa9NlVaJAE6upAG_rKysf9t7/view'
