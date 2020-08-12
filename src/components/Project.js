@@ -13,9 +13,7 @@ const Project = () => {
       <Container className='mb-5' id='project'>
         <Row className='justify-content-end'>
           <Col>
-            <h1 className='text-center mb-2 section-title'>
-              Some Projects I've Built
-            </h1>
+            <h1 className='text-center mb-2 section-title'>Some Projects</h1>
             <hr className='mb-5' />
             <Row>
               <Col>
@@ -33,7 +31,24 @@ const Project = () => {
                       />
                     </a>
                     <Card.Body>
-                      <Card.Title>Tindog</Card.Title>
+                      <Card.Title>
+                        Tindog{' '}
+                        <a
+                          href='https://septynade.github.io/tindog'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fas fa-external-link-alt pro-link ml-3'></i>
+                        </a>
+                        <a
+                          href='https://github.com/septynade/tindog'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fab fa-github pro-link'></i>
+                        </a>
+                      </Card.Title>
+
                       <Card.Text>
                         A landing page of an imaginary Tinder clone app for dogs
                         because dogs need some romace in their life too! My
@@ -47,21 +62,6 @@ const Project = () => {
                           Github
                         </small>
                       </Card.Text>
-                      <a
-                        href='https://github.com/septynade/tindog'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='mr-3'
-                      >
-                        <i className='fab fa-github pro-link'></i>
-                      </a>
-                      <a
-                        href='https://septynade.github.io/tindog'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        <i className='fas fa-external-link-alt pro-link'></i>
-                      </a>
                     </Card.Body>
                   </Card>
                   <Card className='px-4 pt-3'>
@@ -77,7 +77,23 @@ const Project = () => {
                       />
                     </a>
                     <Card.Body>
-                      <Card.Title>Robofriends</Card.Title>
+                      <Card.Title>
+                        Robofriends
+                        <a
+                          href='https://septynade.github.io/robofriends'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fas fa-external-link-alt pro-link ml-3'></i>
+                        </a>
+                        <a
+                          href='https://github.com/septynade/robofriends'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fab fa-github pro-link'></i>
+                        </a>
+                      </Card.Title>
                       <Card.Text>
                         My first React-Redux app, I learned the basic of React,
                         fetching APIs, local and global state management while
@@ -90,21 +106,6 @@ const Project = () => {
                           Built with: React.js, Redux, HTML, CSS, Github
                         </small>
                       </Card.Text>
-                      <a
-                        href='https://github.com/septynade/robofriends'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='mr-3'
-                      >
-                        <i className='fab fa-github pro-link'></i>
-                      </a>
-                      <a
-                        href='https://septynade.github.io/robofriends'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        <i className='fas fa-external-link-alt pro-link'></i>
-                      </a>
                     </Card.Body>
                   </Card>
                 </CardGroup>
@@ -126,7 +127,23 @@ const Project = () => {
                       />
                     </a>
                     <Card.Body>
-                      <Card.Title>Tokophone</Card.Title>
+                      <Card.Title>
+                        Tokophone
+                        <a
+                          href='https://tokophone.netlify.app'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fas fa-external-link-alt pro-link ml-3'></i>
+                        </a>
+                        <a
+                          href='https://github.com/septynade/tokophone'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fab fa-github pro-link'></i>
+                        </a>
+                      </Card.Title>
                       <Card.Text>
                         A phone e-commerce site with a functional cart and
                         checkout function, I learned how to implement React's
@@ -136,24 +153,9 @@ const Project = () => {
                       <Card.Text>
                         <small className='text-muted'>
                           Built with: React.js, Context, Bootstrap, Styled
-                          Components, Netlify
+                          Components
                         </small>
                       </Card.Text>
-                      <a
-                        href='https://github.com/septynade/tokophone'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='mr-3'
-                      >
-                        <i className='fab fa-github pro-link'></i>
-                      </a>
-                      <a
-                        href='https://tokophone.netlify.app'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        <i className='fas fa-external-link-alt pro-link'></i>
-                      </a>
                     </Card.Body>
                   </Card>
                   <Card className='px-4 pt-3'>
@@ -169,7 +171,23 @@ const Project = () => {
                       />
                     </a>
                     <Card.Body>
-                      <Card.Title>Slack Clone</Card.Title>
+                      <Card.Title>
+                        Slack Clone
+                        <a
+                          href='https://react-devchat.netlify.app/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fas fa-external-link-alt pro-link ml-3'></i>
+                        </a>
+                        <a
+                          href='https://github.com/septynade/slack-clone'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fab fa-github pro-link'></i>
+                        </a>
+                      </Card.Title>
                       <Card.Text>
                         An on-going project from a Udemy course I'm currently
                         doing, it is a slack clone built with React-Redux and
@@ -180,21 +198,6 @@ const Project = () => {
                           Built with: React.js, Redux, Semantic UI, Firebase
                         </small>
                       </Card.Text>
-                      <a
-                        href='https://github.com/septynade/slack-clone'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='mr-3'
-                      >
-                        <i className='fab fa-github pro-link'></i>
-                      </a>
-                      <a
-                        href='https://react-devchat.netlify.app/'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        <i className='fas fa-external-link-alt pro-link'></i>
-                      </a>
                     </Card.Body>
                   </Card>
                 </CardGroup>

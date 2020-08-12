@@ -8,7 +8,7 @@ const Home = () => {
         className='my-5'
         style={{ paddingTop: '15vh', paddingBottom: '10vh' }}
       >
-        <p className='text-body'>Hi, I'm</p>
+        <h5>Hi, my name is</h5>
         <h1 style={{ width: '10%' }}>Ade Septian</h1>
         <p className='text-body mt-4'>
           I'm an <strong>English literature</strong> graduate turned Web

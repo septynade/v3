@@ -71,6 +71,12 @@ h1 {
   line-height: 75px;
 }
 
+h5 {
+  font-family: 'PT Mono', monospace;
+  font-size: medium;
+  color: #000000;
+}
+
 strong {
   color: #000;
 }
@@ -164,7 +170,8 @@ strong {
 
 .pro-link {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 1.2em;
+  font-size: 1em;
+  float: right;
 }
 
 .pro-link:hover {
@@ -173,6 +180,7 @@ strong {
 }
 
 .pro-img {
+  height: 25vh;
   transition: transform 0.2s;
 }
 .pro-img:hover {
