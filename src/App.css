@@ -176,7 +176,6 @@ strong {
 
 .pro-link:hover {
   color: #000;
-  transform: translateY(-6px) scale(1.3);
 }
 
 .pro-img {
