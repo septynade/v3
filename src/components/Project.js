@@ -6,6 +6,9 @@ import tindog from '../assets/tindog.png'
 import robofriends from '../assets/robofriends.png'
 import tokophone from '../assets/tokophone.png'
 import slackClone from '../assets/slackClone.png'
+import medcord from '../assets/medcord.png'
+import resepi from '../assets/resepi.png'
+// import proj from '../assets/proj.png'
 
 const Project = () => {
   return (
@@ -66,28 +69,28 @@ const Project = () => {
                   </Card>
                   <Card className='px-4 pt-3'>
                     <a
-                      href='https://septynade.github.io/robofriends'
+                      href='https://react-devchat.netlify.app/'
                       target='_blank'
                       rel='noopener noreferrer'
                     >
                       <Card.Img
                         variant='top'
-                        src={robofriends}
+                        src={slackClone}
                         className='pro-img'
                       />
                     </a>
                     <Card.Body>
                       <Card.Title>
-                        Robofriends
+                        Slack Clone
                         <a
-                          href='https://septynade.github.io/robofriends'
+                          href='https://react-devchat.netlify.app/'
                           target='_blank'
                           rel='noopener noreferrer'
                         >
                           <i className='fas fa-external-link-alt pro-link ml-3'></i>
                         </a>
                         <a
-                          href='https://github.com/septynade/robofriends'
+                          href='https://github.com/septynade/slack-clone'
                           target='_blank'
                           rel='noopener noreferrer'
                         >
@@ -95,15 +98,15 @@ const Project = () => {
                         </a>
                       </Card.Title>
                       <Card.Text>
-                        My first React-Redux app, I learned the basic of React,
-                        fetching APIs, local and global state management while
-                        building this app. The app basically shows a list of
-                        users fetched from a public API and generates their
-                        avatar that are generated from another public API.
+                        A clone of the earlier version of Slack, with similar
+                        design and functionality. It lets users to register with
+                        their email, join a public chat, add a channel to their
+                        favorite, upload image files, change avatar, and send a
+                        private message to other users.
                       </Card.Text>
                       <Card.Text>
                         <small className='text-muted'>
-                          Built with: React.js, Redux, HTML, CSS, Github
+                          Built with: React.js, Redux, Semantic UI, Firebase
                         </small>
                       </Card.Text>
                     </Card.Body>
@@ -160,28 +163,28 @@ const Project = () => {
                   </Card>
                   <Card className='px-4 pt-3'>
                     <a
-                      href='https://react-devchat.netlify.app/'
+                      href='https://septynade.github.io/robofriends'
                       target='_blank'
                       rel='noopener noreferrer'
                     >
                       <Card.Img
                         variant='top'
-                        src={slackClone}
+                        src={robofriends}
                         className='pro-img'
                       />
                     </a>
                     <Card.Body>
                       <Card.Title>
-                        Slack Clone
+                        Robofriends
                         <a
-                          href='https://react-devchat.netlify.app/'
+                          href='https://septynade.github.io/robofriends'
                           target='_blank'
                           rel='noopener noreferrer'
                         >
                           <i className='fas fa-external-link-alt pro-link ml-3'></i>
                         </a>
                         <a
-                          href='https://github.com/septynade/slack-clone'
+                          href='https://github.com/septynade/robofriends'
                           target='_blank'
                           rel='noopener noreferrer'
                         >
@@ -189,13 +192,98 @@ const Project = () => {
                         </a>
                       </Card.Title>
                       <Card.Text>
-                        An on-going project from a Udemy course I'm currently
-                        doing, it is a slack clone built with React-Redux and
-                        Semantic UI with Firebase as the backend.
+                        My first React-Redux app, I learned the basic of React,
+                        fetching APIs, local and global state management while
+                        building this app. The app basically shows a list of
+                        users fetched from a public API and generates their
+                        avatar that are generated from another public API.
                       </Card.Text>
                       <Card.Text>
                         <small className='text-muted'>
-                          Built with: React.js, Redux, Semantic UI, Firebase
+                          Built with: React.js, Redux, HTML, CSS, Github
+                        </small>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </CardGroup>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <CardGroup>
+                  <Card className='px-4 pt-3'>
+                    <a
+                      href='https://resepi-c1243.firebaseapp.com/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <Card.Img
+                        variant='top'
+                        src={resepi}
+                        className='pro-img'
+                      />
+                    </a>
+                    <Card.Body>
+                      <Card.Title>
+                        Resepi
+                        <a
+                          href='https://resepi-c1243.firebaseapp.com/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fas fa-external-link-alt pro-link ml-3'></i>
+                        </a>
+                        <a
+                          href='https://github.com/septynade/resepi'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fab fa-github pro-link'></i>
+                        </a>
+                      </Card.Title>
+                      <Card.Text>
+                        A web app that lets users to store recipes, which saves
+                        the data on firebase. Built entirely with Vue.
+                      </Card.Text>
+                      <Card.Text>
+                        <small className='text-muted'>
+                          Built with: Vue.js, Vue-Router, Slugify, Firebase
+                        </small>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                  <Card className='px-4 pt-3'>
+                    <a
+                      href='https://dribbble.com/shots/13988152-Medical-Record-Mobile-App-Concept'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <Card.Img
+                        variant='top'
+                        src={medcord}
+                        className='pro-img'
+                      />
+                    </a>
+                    <Card.Body>
+                      <Card.Title>
+                        Medical Record Mobile App Concept
+                        <a
+                          href='https://dribbble.com/shots/13988152-Medical-Record-Mobile-App-Concept'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fas fa-external-link-alt pro-link ml-3'></i>
+                        </a>
+                      </Card.Title>
+                      <Card.Text>
+                        Having to take care of and keep track of both of my
+                        parents' health I find my self needing an app to help
+                        me, so I imagined one. This is my first time designing
+                        mobile UI.
+                      </Card.Text>
+                      <Card.Text>
+                        <small className='text-muted'>
+                          Built with: Adobe XD
                         </small>
                       </Card.Text>
                     </Card.Body>
