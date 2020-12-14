@@ -2,17 +2,17 @@ import React from 'react'
 import { Container, Row, Col, Card, CardGroup } from 'react-bootstrap'
 
 // import proj from '../assets/proj.png'
-import tindog from '../assets/tindog.png'
+// import tindog from '../assets/tindog.png'
 import robofriends from '../assets/robofriends.png'
 import tokophone from '../assets/tokophone.png'
 import slackClone from '../assets/slackClone.png'
 import medcord from '../assets/medcord.png'
-import resepi from '../assets/resepi.png'
+// import resepi from '../assets/resepi.png'
 // import proj from '../assets/proj.png'
 
 const Project = () => {
   return (
-    <Container fluid style={{ background: '#f1f1f1', padding: '2em 0' }}>
+    <Container fluid style={{ background: '#121212', padding: '2em 0' }}>
       <Container className='mb-5' id='project'>
         <Row className='justify-content-end'>
           <Col>
@@ -20,54 +20,8 @@ const Project = () => {
             <hr className='mb-5' />
             <Row>
               <Col>
-                <CardGroup>
-                  <Card className='px-4 pt-3'>
-                    <a
-                      href='https://septynade.github.io/tindog'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      <Card.Img
-                        variant='top'
-                        src={tindog}
-                        className='pro-img'
-                      />
-                    </a>
-                    <Card.Body>
-                      <Card.Title>
-                        Tindog{' '}
-                        <a
-                          href='https://septynade.github.io/tindog'
-                          target='_blank'
-                          rel='noopener noreferrer'
-                        >
-                          <i className='fas fa-external-link-alt pro-link ml-3'></i>
-                        </a>
-                        <a
-                          href='https://github.com/septynade/tindog'
-                          target='_blank'
-                          rel='noopener noreferrer'
-                        >
-                          <i className='fab fa-github pro-link'></i>
-                        </a>
-                      </Card.Title>
-
-                      <Card.Text>
-                        A landing page of an imaginary Tinder clone app for dogs
-                        because dogs need some romace in their life too! My
-                        introduction to CSS framework, Bootstrap specifically.
-                        It relies heavily on Bootstrap's classes, and hosted on
-                        Github.
-                      </Card.Text>
-                      <Card.Text>
-                        <small className='text-muted'>
-                          Built with: jQuery, JavaScript, HTML, CSS, Bootstrap,
-                          Github
-                        </small>
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                  <Card className='px-4 pt-3'>
+                <CardGroup className='mb-1'>
+                  <Card className='px-4 pt-3 mr-1'>
                     <a
                       href='https://react-devchat.netlify.app/'
                       target='_blank'
@@ -111,13 +65,49 @@ const Project = () => {
                       </Card.Text>
                     </Card.Body>
                   </Card>
+                  <Card className='px-4 pt-3'>
+                    <a
+                      href='https://dribbble.com/shots/13988152-Medical-Record-Mobile-App-Concept'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <Card.Img
+                        variant='top'
+                        src={medcord}
+                        className='pro-img'
+                      />
+                    </a>
+                    <Card.Body>
+                      <Card.Title>
+                        Medical Record Mobile App Concept
+                        <a
+                          href='https://dribbble.com/shots/13988152-Medical-Record-Mobile-App-Concept'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fas fa-external-link-alt pro-link ml-3'></i>
+                        </a>
+                      </Card.Title>
+                      <Card.Text>
+                        Having to take care of and keep track of both of my
+                        parents' health I find my self needing an app to help
+                        me, so I imagined one. This is my first time designing
+                        mobile UI.
+                      </Card.Text>
+                      <Card.Text>
+                        <small className='text-muted'>
+                          Built with: Adobe XD
+                        </small>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
                 </CardGroup>
               </Col>
             </Row>
             <Row>
               <Col>
-                <CardGroup>
-                  <Card className='px-4 pt-3'>
+                <CardGroup className='mb-1'>
+                  <Card className='px-4 pt-3 mr-1'>
                     <a
                       href='https://tokophone.netlify.app'
                       target='_blank'
@@ -201,89 +191,6 @@ const Project = () => {
                       <Card.Text>
                         <small className='text-muted'>
                           Built with: React.js, Redux, HTML, CSS, Github
-                        </small>
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </CardGroup>
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <CardGroup>
-                  <Card className='px-4 pt-3'>
-                    <a
-                      href='https://resepi-c1243.firebaseapp.com/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      <Card.Img
-                        variant='top'
-                        src={resepi}
-                        className='pro-img'
-                      />
-                    </a>
-                    <Card.Body>
-                      <Card.Title>
-                        Resepi
-                        <a
-                          href='https://resepi-c1243.firebaseapp.com/'
-                          target='_blank'
-                          rel='noopener noreferrer'
-                        >
-                          <i className='fas fa-external-link-alt pro-link ml-3'></i>
-                        </a>
-                        <a
-                          href='https://github.com/septynade/resepi'
-                          target='_blank'
-                          rel='noopener noreferrer'
-                        >
-                          <i className='fab fa-github pro-link'></i>
-                        </a>
-                      </Card.Title>
-                      <Card.Text>
-                        A web app that lets users to store recipes, which saves
-                        the data on firebase. Built entirely with Vue.
-                      </Card.Text>
-                      <Card.Text>
-                        <small className='text-muted'>
-                          Built with: Vue.js, Vue-Router, Slugify, Firebase
-                        </small>
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                  <Card className='px-4 pt-3'>
-                    <a
-                      href='https://dribbble.com/shots/13988152-Medical-Record-Mobile-App-Concept'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      <Card.Img
-                        variant='top'
-                        src={medcord}
-                        className='pro-img'
-                      />
-                    </a>
-                    <Card.Body>
-                      <Card.Title>
-                        Medical Record Mobile App Concept
-                        <a
-                          href='https://dribbble.com/shots/13988152-Medical-Record-Mobile-App-Concept'
-                          target='_blank'
-                          rel='noopener noreferrer'
-                        >
-                          <i className='fas fa-external-link-alt pro-link ml-3'></i>
-                        </a>
-                      </Card.Title>
-                      <Card.Text>
-                        Having to take care of and keep track of both of my
-                        parents' health I find my self needing an app to help
-                        me, so I imagined one. This is my first time designing
-                        mobile UI.
-                      </Card.Text>
-                      <Card.Text>
-                        <small className='text-muted'>
-                          Built with: Adobe XD
                         </small>
                       </Card.Text>
                     </Card.Body>

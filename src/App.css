@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=PT+Mono&family=Patrick+Hand+SC&family=Quicksand:wght@400;700&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=PT+Mono&family=Patrick+Hand+SC&family=Quicksand:wght@400;700&family=Space+Mono&family=Inter:wght@400;700&display=swap');
+
+#root {
+  background-color: #121212;
+}
 
 html {
-  border: 8px solid black;
   overflow-x: hidden;
+  background-color: #121212;
 }
 
 .container {
@@ -11,7 +15,7 @@ html {
 }
 
 .spacer {
-  margin-top: 18rem;
+  margin-top: 10rem;
   margin-bottom: 10rem;
 }
 
@@ -20,9 +24,10 @@ a:hover {
 }
 
 Nav {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.3rem;
-  font-weight: 700;
+  font-family: 'PT Mono';
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 .navbar {
@@ -31,7 +36,7 @@ Nav {
   position: fixed;
   top: 0;
   transition: top 0.6s;
-  background-color: black !important;
+  background-color: #121212 !important;
 }
 
 .navbar--hidden {
@@ -45,7 +50,7 @@ Nav {
 }
 
 .navbar-brand:hover {
-  color: #505050 !important;
+  color: #ffaa00 !important;
 }
 
 .navbar-toggler {
@@ -58,27 +63,17 @@ Nav {
 }
 
 .nav-link:hover {
-  color: #505050 !important;
-}
-
-h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  font-size: 6em;
-  padding-top: 0;
-  margin: 0;
-  color: #000;
-  line-height: 75px;
+  color: #ffaa00 !important;
 }
 
 h5 {
   font-family: 'PT Mono', monospace;
   font-size: medium;
-  color: #000000;
+  color: white;
 }
 
 strong {
-  color: #000;
+  color: #bab8b8;
 }
 
 .link {
@@ -98,11 +93,11 @@ strong {
   padding: 0.4rem 1.3rem;
   margin-top: 1rem;
   margin-right: 1rem;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .btn-white:hover {
   color: #ffffff;
-  background-color: #000;
+  background-color: #ffaa00;
 }
 
 .btn-dark {
@@ -145,7 +140,7 @@ strong {
   font-weight: 900;
   font-family: 'Roboto', sans-serif !important;
   margin-bottom: 20px;
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 .rectangle-1 {
@@ -159,23 +154,23 @@ strong {
 }
 
 .icons {
-  color: #000000;
+  color: white;
   font-size: 1.2em;
 }
 
 .icons:hover {
-  color: #505050;
+  color: #ffaa00;
   transform: translateY(-6px) scale(1.3);
 }
 
 .pro-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
   font-size: 1em;
   float: right;
 }
 
 .pro-link:hover {
-  color: #000;
+  color: #ffaa00;
 }
 
 .pro-img {
@@ -189,7 +184,7 @@ strong {
 .tech-lists {
   font-family: monospace;
   font-size: 1.1em;
-  color: #1f1f1f;
+  color: #bab8b8;
   list-style: none;
   columns: 2;
   width: 90%;
@@ -198,7 +193,7 @@ strong {
 .tech-list::before {
   content: '⋗';
   margin-right: 10px;
-  color: #000000;
+  color: #ffaa00;
 }
 
 .pic {
@@ -211,7 +206,7 @@ strong {
   content: '';
   align-content: flex-end;
   position: absolute;
-  border: 3px solid #000000;
+  border: 3px solid #202020;
   border-radius: 0;
   width: 50%;
   height: 65%;
@@ -227,15 +222,20 @@ strong {
 
 .card {
   border-radius: 0% !important;
+  background-color: #202020;
 }
 
 .card-text {
-  color: #1f1f1f;
+  color: #bab8b8;
   font-family: 'Roboto', sans-serif !important;
 }
 
+.card-title {
+  color: white;
+}
+
 .text-body {
-  color: #1f1f1f !important;
+  color: #bab8b8 !important;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -252,10 +252,14 @@ strong {
   font-weight: bold;
 }
 
+.footer-text {
+  color: white;
+}
+
 hr {
   height: 1px;
-  color: #000;
-  background-color: #000;
+  color: white;
+  background-color: #202020;
 }
 
 hr.footer {

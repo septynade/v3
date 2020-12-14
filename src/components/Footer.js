@@ -3,10 +3,10 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <Container fluid>
+    <Container>
       <hr className='footer' />
       <Row>
-        <Col className='my-5 pl-5 pr-0'>© Ade Septian.</Col>
+        <Col className='my-5 pl-5 pr-0 footer-text'>© Ade Septian.</Col>
         <Col className='text-right my-5 pr-5 pl-0'>
           <a
             className='mr-4'
