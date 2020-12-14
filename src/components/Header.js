@@ -57,7 +57,12 @@ class Menu extends Component {
               <Nav.Link className='mr-5' href='#project'>
                 Project
               </Nav.Link>
-              <Nav.Link href='#contact'>Contact</Nav.Link>
+              <Nav.Link className='mr-5' href='#contact' target='_blank'>
+                Contact
+              </Nav.Link>
+              <Nav.Link href='https://drive.google.com/file/d/1-F7fTQRqqa9NlVaJAE6upAG_rKysf9t7/view?usp=sharing'>
+                Resume
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
