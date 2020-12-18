@@ -35,7 +35,7 @@ const Project = () => {
                     </a>
                     <Card.Body>
                       <Card.Title>
-                        Dev Chat (Slack Clone)
+                        Dev Chat
                         <a
                           href='https://react-devchat.netlify.app/'
                           target='_blank'

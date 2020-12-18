@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=PT+Mono&family=Patrick+Hand+SC&family=Quicksand:wght@400;700&family=Space+Mono&family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Roboto+Mono&family=Patrick+Hand+SC&family=Quicksand:wght@400;700&family=Space+Mono&family=Inter:wght@400;700&display=swap');
 
 #root {
   background-color: #121212;
@@ -24,7 +24,7 @@ a:hover {
 }
 
 Nav {
-  font-family: 'PT Mono';
+  font-family: 'Roboto Mono';
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -46,16 +46,11 @@ Nav {
 .navbar-brand {
   color: #ffffff !important;
   text-decoration: none;
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .navbar-brand:hover {
   color: #ffaa00 !important;
-}
-
-.navbar-toggler {
-  background-color: #ffffff !important;
-  border-color: #000000 !important;
 }
 
 .nav-link {
@@ -67,7 +62,7 @@ Nav {
 }
 
 h5 {
-  font-family: 'PT Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: medium;
   color: white;
 }
@@ -155,7 +150,7 @@ strong {
 
 .icons {
   color: white;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .icons:hover {
@@ -209,7 +204,7 @@ strong {
   border: 3px solid #202020;
   border-radius: 0;
   width: 50%;
-  height: 65%;
+  height: 80%;
   left: 110px;
   top: 40px;
   z-index: -1;
@@ -257,9 +252,9 @@ strong {
 }
 
 hr {
-  height: 1px;
+  height: 0.3px;
   color: white;
-  background-color: #202020;
+  background-color: #5d5d5d;
 }
 
 hr.footer {

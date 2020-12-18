@@ -34,7 +34,7 @@ class Menu extends Component {
   render() {
     return (
       <Navbar
-        bg='white'
+        bg='dark'
         expand='lg'
         style={{ zIndex: '2' }}
         className={
@@ -45,23 +45,29 @@ class Menu extends Component {
         }
       >
         <Container>
-          <Navbar.Brand href='/' style={{ fontSize: '2rem' }} className='mr-5'>
-            &lt;Ade /&gt;
+          <Navbar.Brand href='/' className='mr-5'>
+            septynade
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls='basic-navbar-nav' />
+          <Navbar.Toggle
+            aria-controls='basic-navbar-nav'
+            className='navbar-dark'
+          />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-auto'>
-              <Nav.Link className='mr-5' href='#about'>
-                About
+              <Nav.Link className='mr-3' href='#about'>
+                about.
               </Nav.Link>
-              <Nav.Link className='mr-5' href='#project'>
-                Project
+              <Nav.Link className='mr-3' href='#project'>
+                project.
               </Nav.Link>
-              <Nav.Link className='mr-5' href='#contact' target='_blank'>
-                Contact
+              <Nav.Link className='mr-3' href='#contact'>
+                contact.
               </Nav.Link>
-              <Nav.Link href='https://drive.google.com/file/d/1-F7fTQRqqa9NlVaJAE6upAG_rKysf9t7/view?usp=sharing'>
-                Resume
+              <Nav.Link
+                href='https://drive.google.com/file/d/1-F7fTQRqqa9NlVaJAE6upAG_rKysf9t7/view?usp=sharing'
+                target='_blank'
+              >
+                resume.
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
