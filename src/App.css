@@ -170,9 +170,11 @@ strong {
 
 .pro-img {
   height: 25vh;
+  filter: grayscale(100%);
   transition: transform 0.2s;
 }
 .pro-img:hover {
+  filter: none;
   transform: scale(1.1);
 }
 
@@ -195,24 +197,30 @@ strong {
   position: relative;
   display: inline-block;
   z-index: 1;
-  margin-top: 90px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  margin-top: 65px;
+  filter: grayscale(100%);
 }
-.pic::after {
+.pic:hover {
+  filter: none;
+}
+.pp {
+  z-index: 1;
+}
+.pp::after {
   content: '';
   align-content: flex-end;
   position: absolute;
-  border: 3px solid #202020;
-  border-radius: 0;
+  border: 2px solid #5d5d5d;
+  border-radius: 10px;
   width: 50%;
-  height: 80%;
+  height: 70%;
   left: 110px;
   top: 40px;
   z-index: -1;
   box-sizing: border-box;
-  transition: transform 0.2s;
-}
-.pic::after:hover {
-  transform: translateX(1.5);
+  transition: top ease 0.5s;
 }
 
 .card {
