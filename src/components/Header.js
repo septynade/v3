@@ -58,7 +58,7 @@ class Menu extends Component {
                 about.
               </Nav.Link>
               <Nav.Link className='mr-3' href='#project'>
-                project.
+                projects.
               </Nav.Link>
               <Nav.Link className='mr-3' href='#contact'>
                 contact.
